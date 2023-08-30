@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 7560px;
+    
+}
+body
+{
+    padding: 10px;
+    perspective: 2000px;
+    height: 1500px;
+    background-color:rgb(68, 76, 82);
+}
+.parent2
+{
+    transform-style: preserve-3d;
+    position: relative;
+    width: 300px;
+    height:180px ;
+
+    left: 3px;
+    top: 5px;
+    animation-name: proudect1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+ 
+ 
+ 
+
+
+
+}
+.proudect-1 , .proudect-2
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    line-height: 25px;
+
+}
+.proudect-1
+{
+    
+    background-image: url(../image/b1.png);
+    background-size: cover;
+    
+    
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.proudect-2
+{
+    background-color:#ddd;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+@keyframes proudect1{
+    0%{
+        left: 3px;
+        
+    
+    }
+    
+    100%{
+        transform: rotateY(180deg);
+        left: 75%;
+    }
+
+
+}
+.parent2:hover
+{
+    animation-play-state: paused;
+}
+.btn{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    
+    transform: rotateY(-180deg);
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(68, 76, 82);
+    color: aliceblue;
+   }
+   a{
+       text-decoration: none;
+       color: aliceblue;
+   }
+
+
+.parent3
+{
+    
+    transform-style: preserve-3d;
+    position: relative;
+    width: 300px;
+    height:180px ;
+    animation-delay: 4s;
+    left: 78%;
+    top: 205px;
+    animation-name: proudect2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+ 
+ 
+
+
+
+}
+.proudect-3 , .proudect-4
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    line-height: 25px;
+
+}
+.proudect-3
+{
+    background-image: url(../image/b2.jpg);
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.proudect-4
+{
+    background-color: #ddd;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+@keyframes proudect2{
+    0%{
+        left: 85%;
+        
+    
+    }
+   
+    100%{
+        transform: rotateY(180deg);
+        left: 15px;
+    }
+
+
+}
+
+.parent3:hover
+{
+    animation-play-state: paused;
+}
+.btn{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    transform: rotateY(-180deg);
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(68, 76, 82);
+    color: aliceblue;
+   }
+   a{
+       text-decoration: none;
+       color: aliceblue;
+   }
+
+
+.parent4
+{
+    transform-style: preserve-3d;
+    position: relative;
+    width: 300px;
+    height:180px ;
+     animation-delay: 8s;
+    left: 3px;
+    top: 405px;
+    animation-name: proudect3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+ 
+ 
+ 
+
+
+
+}
+.proudect-5 , .proudect-6
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+    color:black;
+    border-radius: 10px;
+    line-height: 25px;
+
+}
+.proudect-5
+{
+    background-image: url(../image/b3.webp);
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.proudect-6
+{
+    background-color: #ddd;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+@keyframes proudect3{
+    0%{
+        left: 3px;
+        
+    
+    }
+    
+    100%{
+        transform: rotateY(180deg);
+        left: 75%;
+    }
+
+
+}
+.parent4:hover
+{
+    animation-play-state: paused;
+}
+.btn{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    transform: rotateY(-180deg);
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(68, 76, 82);
+    color: aliceblue;
+   }
+   a{
+       text-decoration: none;
+       color: aliceblue;
+   }
+
+
+.parent5
+{
+    
+    transform-style: preserve-3d;
+    position: relative;
+    width: 300px;
+    height:180px ;
+    animation-delay: 12s;
+    left: 78%;
+    top: 605px;
+    animation-name: proudect4;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+ 
+ 
+
+
+
+}
+.proudect-8 , .proudect-7
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    line-height: 25px;
+
+}
+.proudect-7
+{
+    background-image: url(../image/b5.jpg);
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.proudect-8
+{
+    background-color: #ddd;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+@keyframes proudect4{
+    0%{
+        left: 85%;
+        
+    
+    }
+   
+    100%{
+        transform: rotateY(180deg);
+        left: 15px;
+    }
+
+
+}
+
+.parent5:hover
+{
+    animation-play-state: paused;
+}
+.btn{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    transform: rotateY(-180deg);
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(68, 76, 82);
+    color: aliceblue;
+   }
+   a{
+       text-decoration: none;
+       color: aliceblue;
+   }
+
+.parent6
+{
+    transform-style: preserve-3d;
+    position: relative;
+    width: 300px;
+    height:180px ;
+     animation-delay: 16s;
+    left: 3px;
+    top: 805px;
+    animation-name: proudect5;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+ 
+ 
+ 
+
+
+
+}
+.proudect-9 , .proudect-10
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+    color:black;
+    border-radius: 10px;
+    line-height: 25px;
+
+}
+.proudect-9
+{
+    background-image: url(../image/b6.jfif);
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.proudect-10
+{
+    background-color: #ddd;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+@keyframes proudect5{
+    0%{
+        left: 3px;
+        
+    
+    }
+    
+    100%{
+        transform: rotateY(180deg);
+        left: 75%;
+    }
+
+
+}
+.parent6:hover
+{
+    animation-play-state: paused;
+}
+.btn{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    transform: rotateY(-180deg);
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(68, 76, 82);
+    color: aliceblue;
+   }
+   a{
+       text-decoration: none;
+       color: aliceblue;
+   }
+
+.parent7
+{
+    
+    transform-style: preserve-3d;
+    position: relative;
+    width: 300px;
+    height:180px ;
+    animation-delay: 20s;
+    left: 78%;
+    top: 1005px;
+    animation-name: proudect6;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+ padding-bottom: 20px;
+ 
+
+
+
+}
+.proudect-11 , .proudect-12
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+    color:black;
+    border-radius: 10px;
+    line-height: 25px;
+
+}
+.proudect-11
+{
+    background-image: url(../image/b7.jpg);
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.proudect-12
+{
+    position: relative;
+    background-color:#ddd;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    line-height: 25px;
+}
+.btn{
+ position: absolute;
+ bottom: 30px;
+ right: 0;
+ transform: rotateY(-180deg);
+ width: 100px;
+ height: 40px;
+ border: 0;
+ border-radius: 5px;
+ background-color: rgb(68, 76, 82);
+ color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+@keyframes proudect6{
+    0%{
+        left: 85%;
+        
+    
+    }
+   
+    100%{
+        transform: rotateY(180deg);
+        left: 15px;
+    }
+
+
+}
+
+.parent7:hover
+{
+    animation-play-state: paused;
+}
